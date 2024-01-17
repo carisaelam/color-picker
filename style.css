@@ -8,6 +8,13 @@ html body {
   background-color: #dcdcdc;
 }
 
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .nav-container {
   display: flex;
   width: 100%;
@@ -21,12 +28,22 @@ html body {
   list-style: none;
   width: 30%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  font-size: 1.2rem;
+}
+
+nav p {
+  font-family: "Work Sans";
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 10px;
+  width: 80vw;
 }
 
 .container {
-  height: 100vh;
+  height: 70vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
