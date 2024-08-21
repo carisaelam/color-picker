@@ -4,8 +4,24 @@
 }
 
 html body {
-  font-family: "Lemon";
+  font-family:
+    'Space Grotesk',
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   background-color: #dcdcdc;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 nav {
@@ -13,6 +29,12 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(39, 39, 39);
+  color: #dcdcdc;
+}
+
+nav p a {
+  color: lightblue;
 }
 
 .nav-container {
@@ -21,7 +43,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: white;
+  background-color: rgb(39, 39, 39);
+  color: #dcdcdc;
 }
 
 .nav-container ul {
@@ -32,8 +55,11 @@ nav {
   font-size: 1.2rem;
 }
 
+.nav-container ul li a {
+  color: #dcdcdc;
+}
+
 nav p {
-  font-family: "Work Sans";
   text-align: center;
   font-size: 1.3rem;
   margin: 10px;
@@ -55,23 +81,34 @@ nav p {
   align-items: center;
   width: fit-content;
   min-width: 450px;
-  font-family: "Work Sans";
   font-size: 1.25rem;
-  background-color: rgb(70, 70, 70);
-  color: white;
+  background-color: rgb(242, 242, 242);
+  color: rgb(21, 20, 20);
   padding: 10px 20px;
   border-radius: 20px;
-  border: solid 2px black;
+  box-shadow: 0 0 7px rgb(176, 176, 176);
 }
 
 .button {
   font-size: 1.25rem;
   padding: 10px 15px;
-  background: linear-gradient(135deg, purple, darkblue);
+  background: linear-gradient(135deg, rgb(0, 66, 128), darkblue);
   color: white;
   border-radius: 25px;
   border: solid 2px black;
   margin: 10px;
-  font-family: "Work Sans";
+  font-family:
+    'Space Grotesk',
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   cursor: pointer;
 }
